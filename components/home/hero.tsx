@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import { getStaticPath } from '@/lib/utils';
 
 export default function Hero() {
   return (
@@ -26,20 +27,15 @@ export default function Hero() {
               </Link>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="relative w-full aspect-video rounded-xl bg-muted">
-              {/* Imagine placeholder - va fi înlocuită */}
-              <div className="relative w-full aspect-video rounded-xl overflow-hidden">
-                {/* Înlocuiește placeholder-ul cu imaginea reală */}
-                <Image 
-                  src="/images/hero.png" 
-                  alt="Dashboard interface showcase" 
-                  fill 
-                  className="object-cover"
-                  priority
-                />
-              </div>
-            </div>
+          <div className="flex items-center justify-center lg:justify-end">
+            <Image
+              src={getStaticPath("/images/hero.png")}
+              alt="Dashboard Preview"
+              width={500}
+              height={400}
+              className="rounded-lg shadow-xl"
+              priority
+            />
           </div>
         </div>
       </div>
