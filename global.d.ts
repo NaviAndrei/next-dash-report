@@ -41,6 +41,14 @@ declare module '*.gif' {
   export default content;
 }
 
+// Declarații pentru directoarele care generează erori de tip
+declare module 'app';
+declare module 'components';
+declare module 'lib';
+declare module 'node_modules';
+declare module 'public';
+declare module 'styles';
+
 // Asigură-te că JSX-ul este recunoscut în fișierele .tsx
 declare namespace JSX {
   interface IntrinsicElements {
