@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx next dev",
-    "build": "npx next build",
-    "start": "npx next start",
-    "lint": "npx next lint",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "add-component": "npx shadcn@latest add",
     "clean": "rm -rf node_modules .next",
     "reinstall": "npm run clean && npm install"
@@ -44,5 +44,6 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "5.8.2"
-  }
+  },
+  "homepage": "https://NaviAndrei.github.io/next-dash-report"
 }
