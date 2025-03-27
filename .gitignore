@@ -1,0 +1,105 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Next.js build output
+/.next/
+/out/
+/build
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage
+/.nyc_output
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# Cache
+.npm
+.eslintcache
+.stylelintcache
+.turbo
+
+# Temporary files
+*.log
+*.tmp
+tmp/
+temp/
+
+# Specific to this project
+next-app/
+/next-app
+
+# AI generation related files
+.cursor/
+*.prompt
+*.prompts
+prompts/
+.ai/
+.anthropic/
+.claude/
+.openai/
+.copilot/
+.codeium/
+*prompt*.txt
+*prompt*.md
+ai-instructions.md
+*ai*instructions*
+*AI*instructions*
+*chatgpt*
+*ChatGPT*
+*GPT*
+*gpt*
+*claude*
+*Claude*
+*llm*
+*LLM*
+
+# AI workflow files
+.chat/
+*-conversation-*
+*conversation*.json
+*_conversation_history*
+*_conversation_*
+generation_logs/
+ai_logs/
+*ai_history*
+*ai-history*
+*ai_session*
+*ai-session*
+
+# Cursor specific 
+.cursor-assistant-history/
+.cursor-chat-history.json
+.cursor/
+/.cursor/
+.cursor-assistant/
+/.cursor-assistant/
+session-history/ 
