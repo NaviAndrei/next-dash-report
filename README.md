@@ -1,4 +1,5 @@
 # Next-Dash-Report
+[![Modern Dashboard Website](https://img.shields.io/badge/Modern-Dashboard%20Website-blue)](https://naviandrei.github.io/digital-art-gallery/) 
 
 Modern dashboard application built with Next.js 14, Shadcn/UI, and Recharts. Features dark mode support and interactive data visualization components.
 
