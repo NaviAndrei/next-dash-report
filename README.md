@@ -1,5 +1,7 @@
 # Next-Dash-Report
-[![Modern Dashboard Website](https://img.shields.io/badge/Modern-Dashboard%40Website-blue)](naviandrei.github.io/next-dash-report/) 
+[![Modern](https://img.shields.io/badge/Modern-blue)](https://naviandrei.github.io/next-dash-report/)
+[![Dashboard](https://img.shields.io/badge/Dashboard-blue)](https://naviandrei.github.io/next-dash-report/)
+[![Website](https://img.shields.io/badge/Website-gray)](https://naviandrei.github.io/next-dash-report/)
 
 Modern dashboard application built with Next.js 14, Shadcn/UI, and Recharts. Features dark mode support and interactive data visualization components.
 
